@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+}
+h1{
+    color: rgb(255, 190, 110);
+    text-shadow: 0px 0px 15px yellow;
+}
+h3{
+    color: aquamarine;
+}
+#myText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 50px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+#mySubmit{
+    font-size: 18px;
+    border-radius: 5px;
+}
+#mySubmit:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+#mySubmit:active{
+    box-shadow: 0px 0px 15px blue;
+    background-color: rgb(49, 173, 255);
+}
+#warning{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 8, 0);
+}
+#myResult{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chartreuse;
+}
