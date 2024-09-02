@@ -4,18 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My new Website Exercise</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Welcome to Guessing Number Game</h1>
     <h3>Guess a Number between 1 - 100</h3>
 
-    <input type="text" id="myText"><br><br>
+    <input type="number" id="myText"><br><br>
     <button id="mySubmit">Submit</button>
     
     <p id="warning"></p>
     <p id="myResult"></p>
+    
+    <div class="leaderboard">
+      <h2>Leaderboard</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name/s</th>
+            <th>Score/s</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Player Name</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Player Name</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Player Name</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-    <script src="index.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
